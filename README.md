@@ -59,3 +59,7 @@ npm run lint
 - `VITE_CURRENCY_BEACON_API_KEY` - Your CurrencyBeacon API key (required)
 
 For local development, create a `.env.local` file (not committed to git). Use `.env.sample` as a template.
+
+## Project Structure & Architecture
+
+For detailed information about tech stack choices, component structure, and design decisions, see [ARCHITECTURE.md](./ARCHITECTURE.md).
