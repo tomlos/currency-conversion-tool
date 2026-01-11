@@ -1,0 +1,10 @@
+.currency-selector {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px;
+}
+
+.currency-selector label {
+    font-weight: 500;
+}

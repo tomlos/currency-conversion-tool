@@ -1,4 +1,5 @@
 import type { Currency } from "../../../../api/currencyApi";
+import "./CurrencySelector.css";
 
 interface CurrencySelectorProps {
     title: string;
@@ -17,15 +18,15 @@ export default function CurrencySelector({
 }: CurrencySelectorProps) {
     if (!currencies) {
         return (
-            <div>
+            <div className="currency-selector">
                 <label>{title}</label>
-                <div>Loading currencies...</div>
+                <div className="currency-selector-loading">Loading currencies...</div>
             </div>
         );
     }
 
     return (
-        <div>
+        <div className="currency-selector">
             <label>{title}</label>
             <select
                 disabled={isLoading}

@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import CurrencyConverter from './features/CurrencyConverter/components/ConversionForm/CurrencyConverter'
+import CurrencyConverter from './features/CurrencyConverter/CurrencyConverter'
 
 const queryClient = new QueryClient()
 
